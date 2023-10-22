@@ -12,6 +12,9 @@
 <li><b>Other tools used: </b>AEM, Hybris, JIRA, Git, Bitbucket</li>
 </ul>
 
+## 💡 Projects in Web development 💡
+https://mrus-cryptoworld.netlify.app
+
 ## 💡 Projects in business analytics 💡
 https://eportfolio.mygreatlearning.com/mrudhulaa-p-v
 
