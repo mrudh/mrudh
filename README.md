@@ -8,7 +8,7 @@
 ## ✨ Core Competencies ✨
 <ul>
 <li><b>Programming Languages: </b>Javascript</li>
-<li><b>Web development: </b>HTML, CSS, Bootstrap, jQuery, Angular, React js, Ajax, ES6, Responsive Web Design, Web accessibility</li>
+<li><b>Web development: </b>HTML, CSS, Bootstrap, jQuery, Angular, React js, Vue.js, Ajax, ES6, Responsive Web Design, Web accessibility</li>
 <li><b>Other tools used: </b>AEM, Hybris, JIRA, Git, Bitbucket</li>
 </ul>
 
