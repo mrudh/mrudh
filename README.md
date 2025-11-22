@@ -2,7 +2,7 @@
 
 ## ⭐️ About Me ⭐️
 <ul>
-<li>Software engineer with 4 plus years of experience in software development</li>
+<li>Software engineer with 6 plus years of experience in software development</li>
 </ul>
 
 ## ✨ Core Competencies ✨
