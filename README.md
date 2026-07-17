@@ -102,17 +102,6 @@ A full-stack **MERN** application for running referendums, with fully separate V
 
 ---
 
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=mrudh&show_icons=true&theme=default&hide_border=true&cache_seconds=86400" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrudh&layout=compact&hide_border=true&cache_seconds=86400" width="48%" />
-
-</div>
-
----
-
 ## Let's Connect
 
 📫 Reach me on [LinkedIn](https://www.linkedin.com/in/mrudhulaa-pv/) — I'm actively interviewing for Frontend and Software Engineer roles and always happy to talk shop about React, accessibility, or applied AI.
