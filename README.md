@@ -64,7 +64,7 @@ I'm actively looking for **Frontend Engineer** or **Software Engineer** roles wh
 
 ---
 
-## Featured Project
+## Featured Projects
 
 ### 🏠 HomifyOne — AI-Powered Personalization Platform for Residential Developments *(MSc Dissertation, private repo)*
 
@@ -77,6 +77,19 @@ An end-to-end platform that helps property developers and buyers personalize the
 - Full workflow managed through Git/GitLab with a structured branching and review process
 
 *Repo is currently private while under active development; happy to walk through the architecture and code on request.*
+
+### 🗳️ [MSLR (My Shangri La Referendum)](https://github.com/mrudh/MSLR-project) — Full-Stack Referendum Management Platform
+
+A full-stack **MERN** application for running referendums, with fully separate Voter and Election Commission experiences.
+
+- Built separate **Voter** and **Election Commission** dashboards with distinct permissions and views
+- Implemented **JWT-based authentication** with role-based authorization and bcrypt password hashing
+- Built a **QR code scanning** flow for secure voter check-in
+- Delivered results visualization using **Chart.js** (bar/donut charts) and a custom **word cloud** view for standout voting options
+- Exposed a **public open-data REST API** for referendum results (`/mslr/referendums`, `/mslr/referendum/:id`)
+- Backed by **MongoDB Atlas** with Mongoose schemas across voters, referendums, options, votes, and audit history
+
+**Stack:** React (Vite), React Router, Axios, Bootstrap, Chart.js, Node.js, Express.js, JWT, bcrypt, MongoDB Atlas, Mongoose
 
 ---
 
@@ -93,8 +106,8 @@ An end-to-end platform that helps property developers and buyers personalize the
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=mrudh&show_icons=true&theme=default&hide_border=true" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrudh&layout=compact&hide_border=true" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=mrudh&show_icons=true&theme=default&hide_border=true&cache_seconds=86400" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mrudh&layout=compact&hide_border=true&cache_seconds=86400" width="48%" />
 
 </div>
 
@@ -102,4 +115,4 @@ An end-to-end platform that helps property developers and buyers personalize the
 
 ## Let's Connect
 
-📫 Reach me on [LinkedIn](https://www.linkedin.com/in/mrudhulaa-pv/) - I'm actively interviewing for Frontend and Software Engineer roles and always happy to talk shop about React, accessibility, or applied AI.
+📫 Reach me on [LinkedIn](https://www.linkedin.com/in/mrudhulaa-pv/) — I'm actively interviewing for Frontend and Software Engineer roles and always happy to talk shop about React, accessibility, or applied AI.
