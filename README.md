@@ -68,15 +68,15 @@ I'm actively looking for **Frontend Engineer** or **Software Engineer** roles wh
 
 ### 🏠 [HomifyOne - AI-Powered Personalization and Workflow Management Platform for Residential Developments](https://github.com/mrudh/HomifyOne)
 
-An end-to-end platform that helps property developers and buyers personalize the home-buying journey through role-based dashboards and AI-driven recommendations.
-
-- Built a **FastAPI** recommendation service ("Home Extras") using **sentence-transformer embeddings** and **FAISS** for semantic retrieval
-- Designing a **RAG architecture** with the **Gemini API** to power a conversational buyer assistant on top of the existing retrieval layer
-- Architected role-based dashboards for multiple user types (buyers, developers, suppliers)
-- In progress: real-time messaging between buyers, developers, and suppliers using **Socket.io**
-- Full workflow managed through Git/GitLab with a structured branching and review process
-
-*Repo is currently private while under active development; happy to walk through the architecture and code on request.*
+- **Four distinct user roles** (buyer, developer, supplier, admin) with server-side role-based access control enforced on every route, plus ownership-level checks so a developer can only act on their own plots and a supplier only on their own orders, not just role checks alone.
+- **AI recommendation engine** built on FAISS vector search and sentence-transformer embeddings, scoring the product catalog against each buyer's questionnaire answers in a three-pass fallback, so buyers always get relevant results even with narrow filters.
+- **AI buyer assistant** powered by Gemini, with its own retrieval step over products and FAQs, a defensive system prompt that treats all retrieved/user data as untrusted input, and regex-based prompt-injection detection before any message reaches the LLM.
+- **Automated end-to-end order workflow**: approving a buyer's selections auto-generates a PDF summary, splits line items into separate purchase orders per supplier, and notifies every affected party in real time.
+- **Real-time messaging and notifications** via Socket.IO, with a relationship-derived contact list, buyers, developers and suppliers can only message people they actually have an active order relationship with, not an open directory.
+- **AI-assisted invoice processing**: suppliers upload invoices to S3, and a Gemini-backed extraction endpoint summarises each one and flags amount mismatches against the original purchase order automatically.
+- **Secure file handling throughout**: all uploads (invoices, chat attachments, floor plans) are stored privately in S3 and only ever exposed via short-lived, time-limited signed URLs, never public links.
+- **Budget-aware checkout logic** that tracks a plot's fixed extras allowance against both prior approved spend and the live basket total, added without touching any of the existing, already-tested pricing calculations.
+- **Thoroughly tested**: 380+ automated test cases across four frameworks (Jest, Vitest, React-Testing-Library, pytest, Playwright), including real-database and real-HTTP integration tests, not just mocks.
 
 ### 🗳️ [MSLR (My Shangri La Referendum) - Full-Stack Referendum Management Platform](https://github.com/mrudh/MSLR-project) 
 
