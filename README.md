@@ -66,7 +66,7 @@ I'm actively looking for **Frontend Engineer** or **Software Engineer** roles wh
 
 ## Featured Projects
 
-### 🏠 [HomifyOne (https://github.com/mrudh/HomifyOne) - AI-Powered Personalization Platform for Residential Developments]
+### 🏠 [HomifyOne - AI-Powered Personalization Platform for Residential Developments](https://github.com/mrudh/HomifyOne)
 
 An end-to-end platform that helps property developers and buyers personalize the home-buying journey through role-based dashboards and AI-driven recommendations.
 
