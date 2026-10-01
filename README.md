@@ -66,7 +66,7 @@ I'm actively looking for **Frontend Engineer** or **Software Engineer** roles wh
 
 ## Featured Projects
 
-### 🏠 HomifyOne — AI-Powered Personalization Platform for Residential Developments *(MSc Dissertation, private repo)*
+### 🏠 HomifyOne - AI-Powered Personalization Platform for Residential Developments *(MSc Dissertation, private repo)*
 
 An end-to-end platform that helps property developers and buyers personalize the home-buying journey through role-based dashboards and AI-driven recommendations.
 
@@ -78,7 +78,7 @@ An end-to-end platform that helps property developers and buyers personalize the
 
 *Repo is currently private while under active development; happy to walk through the architecture and code on request.*
 
-### 🗳️ [MSLR (My Shangri La Referendum)](https://github.com/mrudh/MSLR-project) — Full-Stack Referendum Management Platform
+### 🗳️ [MSLR (My Shangri La Referendum)](https://github.com/mrudh/MSLR-project) - Full-Stack Referendum Management Platform
 
 A full-stack **MERN** application for running referendums, with fully separate Voter and Election Commission experiences.
 
